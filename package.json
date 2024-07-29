@@ -1,0 +1,12 @@
+{
+  "name": "webstorm-tsconfig-extends-exports-bug",
+  "version": "1.0.0",
+  "workspaces": ["a", "b", "c"],
+  "scripts": {
+    "typecheck": "tsc --build"
+  },
+  "devDependencies": {
+    "typescript": "5.5.4",
+    "vite": "5.3.5"
+  }
+}

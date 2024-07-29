@@ -1,0 +1,9 @@
+{
+    "extends": "@workspace/b/tsconfig.base.json",
+    "include": ["src"],
+    "compilerOptions": {
+        "composite": true,
+        "baseUrl": ".",
+        "outDir": "./node_modules/.tmp"
+    }
+}

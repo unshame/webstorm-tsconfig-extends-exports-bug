@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        // Modules
+        "module": "ESNext",
+        "moduleResolution": "Bundler",
+        "resolveJsonModule": true,
+        "types": ["vite/client"],
+
+        // Interop Constraints
+        "esModuleInterop": true,
+
+        // Emit
+        "noEmit": false,
+        "emitDeclarationOnly": true,
+
+        // Language & Environment
+        "target": "ESNext",
+
+        // Completeness
+        "skipLibCheck": true,
+
+        // Type Checking
+        "strict": true,
+        "noUncheckedIndexedAccess": true,
+        "noImplicitOverride": true,
+        "noImplicitReturns": true
+    }
+}

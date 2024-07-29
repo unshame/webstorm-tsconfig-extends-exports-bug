@@ -1,0 +1,9 @@
+{
+    "name": "@workspace/c",
+    "exports": {
+        "./utils": "./src/utils.ts"
+    },
+    "dependencies": {
+        "@workspace/b": "*"
+    }
+}
